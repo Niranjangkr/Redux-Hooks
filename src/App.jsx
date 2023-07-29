@@ -2,6 +2,7 @@ import './App.css'
 import { useSelector, useDispatch } from 'react-redux'
 import { IncNum,decNum } from './actions'
 import ReduxBasic from './components/ReduxBasic'
+import Child1 from './components/Child1'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <ReduxBasic/>
+      <Child1 />
     </>
   )
 }
